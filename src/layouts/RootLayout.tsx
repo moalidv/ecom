@@ -1,3 +1,4 @@
+import { Outlet } from "react-router-dom";
 import Footer from "../components/common/footer/Footer";
 import Header from "../components/common/header/Header";
 import Navbar from "../components/common/navbar/Navbar";
@@ -11,6 +12,7 @@ export const RootLayout = () => {
     <div className={container}>
       <Header />
       <Navbar />
+      <Outlet />
       <Footer />
     </div>
   );

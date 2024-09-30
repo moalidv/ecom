@@ -1,5 +1,5 @@
 import { createRoot } from "react-dom/client";
 import "./index.css";
-import RootLayout from "./layouts/RootLayout.tsx";
+import MainRoutes from "./routes/MainRoutes";
 
-createRoot(document.getElementById("root")!).render(<RootLayout />);
+createRoot(document.getElementById("root")!).render(<MainRoutes />);

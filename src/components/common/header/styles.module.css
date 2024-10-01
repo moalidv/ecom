@@ -1,0 +1,37 @@
+.container {
+  padding: 20px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.title {
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.title span {
+  background: #0fbbe693;
+  padding: 10px 20px;
+  border-radius: 8px;
+}
+
+.iconsContainer {
+  display: flex;
+}
+
+.cartContainer {
+  display: flex;
+  margin: 0 20px;
+}
+
+.wishListIcon {
+  display: flex;
+  margin: 0 20px;
+}
+
+.separator {
+  background: black;
+  width: 2px;
+  height: 20px;
+}

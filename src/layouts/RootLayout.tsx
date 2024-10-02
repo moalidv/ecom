@@ -1,7 +1,7 @@
 import { Outlet } from "react-router-dom";
 import Footer from "../components/common/footer/Footer";
 import Header from "../components/common/header/Header";
-import Navbar from "../components/common/navbar/Navbar";
+import NavbarElement from "../components/common/navbar/NavbarElement";
 
 import styles from "./styles.module.css";
 
@@ -11,7 +11,7 @@ export const RootLayout = () => {
   return (
     <div className={container}>
       <Header />
-      <Navbar />
+      <NavbarElement />
       <Outlet />
       <Footer />
     </div>
